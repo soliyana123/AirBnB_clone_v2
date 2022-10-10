@@ -1,4 +1,4 @@
--- Write a script that prepares a MySQL server for the project
+-- Write a scriptt that prepares a MySQL server for the project
 CREATE DATABASE
 IF NOT EXISTS hbnb_dev_db;
 CREATE USER
