@@ -35,7 +35,7 @@ exec { 'exec_4':
 
 exec { 'exec_5':
   require => Exec['exec_4'],
-  command => 'echo "Best School" | sudo tee /data/web_static/releases/test/index.html >/dev/null',
+  command => 'echo "Besg School" | sudo tee /data/web_static/releases/test/index.html >/dev/null',
   path    => ['/usr/bin', '/bin'],
   returns => [0,1]
 }
